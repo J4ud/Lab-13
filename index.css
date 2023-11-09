@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(219, 244, 255);
+}
+.content{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;;
+    background-color: aliceblue;
+    margin: 0;
+    color: rgb(4, 45, 99);
+    height: 60px;
+    font-size: 12px;
+}
+
+#task{
+    background-color:rgb(255, 255, 255);
+    border: 0;
+    border-radius: 5px;
+    margin: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family:  'Poppins', sans-serif;
+    box-shadow: 1px 1px 3px 0;
+}
+
+#status{
+height: 40px;
+padding: 10px;
+margin: 10px ;
+border-radius: 5px;
+background-color: rgb(4, 45, 99);
+color: white;
+font-family:  'Poppins', sans-serif;
+box-shadow: 1px 1px 3px 0;
+border: 0;
+}
+
+.agregar{
+    height: 40px;
+padding: 10px;
+margin: 10px ;
+border-radius: 5px;
+background-color: rgb(4, 45, 99);
+color: white;
+font-family:  'Poppins', sans-serif;
+box-shadow: 1px 1px 3px 0;
+border: 0;
+}
+
+#task::placeholder{
+   color: rgb(4, 45, 99);
+   justify-content: center;
+}
+
+.task-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(255, 255, 255);
+    width:  150px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 1px 1px 2px 0;
+    font-family:  'Poppins', sans-serif;
+    height: 150px;
+}
+
+.task-card h3{
+    justify-self: center;
+}
+
+#taskList{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.task-uncompleted{
+    background-color: aliceblue;
+    width: 30%;
+    height: 100%;
+    margin: 5px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.task-process{
+    background-color:aliceblue;
+    width: 30%;
+    height: 100%;
+    margin: 5px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.taskcompleted{
+    background-color: aliceblue;
+    width: 30%;
+    height: 100%;
+    margin: 5px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tasks{
+    position: absolute;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    top: 20%;
+    justify-content: start;
+}
+
+.tarea-categoria{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;;
+    background-color: aliceblue;
+    margin: 0;
+    color: rgb(4, 45, 99);
+    height: 40px;
+    font-size: 20px;
+    z-index: 999;
+    background-color: aliceblue;
+    width: 30%;
+    margin: 5px;
+    align-items: center;
+}
+
+.titulos{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.categorias{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.task-card button{
+    width: 3px;
+    height: 3px;
+}
+
+#cambio{
+    border: 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: rgb(4, 45, 99);
+    border-radius: 5px;
+    margin: 3px;
+}

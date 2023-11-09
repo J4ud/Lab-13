@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Administrador de Tareas</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <div class="titulo">
+        <h1>Administrador de Tareas</h1>
+    </div>
+
+    <div class="content">
+        <input type="text" id="task" placeholder="Nueva tarea">
+        <select id="status">
+            <option value="Por Hacer">Por Hacer</option>
+            <option value="En Proceso">En Proceso</option>
+            <option value="Completada">Completada</option>
+        </select>
+        <button onclick="addTask()" class="agregar">Agregar Tarea</button>
+    </div>
+
+    <div class="tasks">
+        <div class="titulos">
+            <h2 class="tarea-categoria">Por Hacer</h2>
+            <h2 class="tarea-categoria">En Proceso</h2>
+            <h2 class="tarea-categoria">Completada</h2>
+        </div>
+        <div class="categorias">
+            <div class="task-uncompleted" id="todo">
+            
+            </div>
+            
+            <div class="task-process" id="doing">
+            
+            </div>
+            
+            <div class="taskcompleted" id="done">
+            
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script> <!-- Coloca la etiqueta script al final del body -->
+
+</body>
+</html>
